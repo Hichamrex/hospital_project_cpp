@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                sleep 19
+                sleep 18
                 echo 'Front end builded'
             }
         }
